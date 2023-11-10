@@ -70,3 +70,33 @@
     border-radius: 5px;
   }
   
+  .styled-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid darkcyan;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: white;
+  color: black;
+}
+
+.line-box {
+  background-color: lightgrey;
+}
+
+u, i {
+  text-decoration: underline;
+  font-style: italic;
+}
